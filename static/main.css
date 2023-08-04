@@ -1,0 +1,183 @@
+/* Add your custom CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("/static/bg_img.jpg"); /* Add the background image URL here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
+    background-color: #f7f7f7; /* Fallback background color if the image is unavailable */
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo p {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.logo span {
+    color: #e74c3c;
+}
+
+.search-container {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-element h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Updated search button styles */
+.search-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #3498DB;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #2980B9;
+}
+
+.search-list {
+    margin-top: 20px;
+}
+
+.search-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.search-list-item:hover {
+    background-color: #f7f7f7;
+}
+
+.search-item-thumbnail {
+    width: 60px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.search-item-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.search-item-info h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.search-item-info p {
+    font-size: 14px;
+    color: #888;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.result-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.movie-item {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.movie-item:hover {
+    transform: translateY(-5px);
+}
+
+.movie-poster img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.movie-info .movie-title {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.movie-info p {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.error-message {
+    color: #e74c3c;
+    text-align: center;
+    font-size: 16px;
+}
+
+.loading-spinner {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.loading-spinner img {
+    width: 50px;
+}
+
+/* New styles for movie rating button */
+.rating {
+    display: inline-block;
+    background-color: #f1c40f; /* Yellow background color */
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px; /* Adjust padding for height */
+    border-radius: 5px;
+    cursor: pointer;
+}
